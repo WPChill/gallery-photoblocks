@@ -8,4 +8,4 @@
     <?php endforeach ?>
     </select>
 </label>
-<div class="pb-settings-description"><p><?php _e($field["description"], 'photobocks') ?></p></div>
+<div class="pb-settings-description"><p><?php _e($field["description"], 'photoblocks') ?></p></div>

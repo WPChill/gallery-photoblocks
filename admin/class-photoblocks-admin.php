@@ -401,7 +401,7 @@ class Photoblocks_Admin
         
         if ( !empty($current_screen->id) && strpos( $current_screen->id, 'ftg' ) !== false ) {
             $url = 'https://wordpress.org/support/plugin/photoblocks-grid-gallery/reviews/?filter=5#new-post';
-            $text = sprintf( __( 'Please rate <strong>PhotoBlocks</strong> <a href="%s" target="_blank">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a href="%s" target="_blank">WordPress.org</a> to help us spread the word. Thank you from the PhotoBlocks team!', 'wpforms' ), $url, $url );
+            $text = sprintf( __( 'Please rate <strong>PhotoBlocks</strong> <a href="%s" target="_blank">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a href="%s" target="_blank">WordPress.org</a> to help us spread the word. Thank you from the PhotoBlocks team!', 'photoblocks' ), $url, $url );
         }
         
         return $text;
@@ -424,16 +424,16 @@ class Photoblocks_Admin
         );
         $this->add_page = add_submenu_page(
             $this->plugin_name,
-            __( 'Add new' ) . " - PhotoBlocks",
-            __( 'Add new' ),
+            __( 'Add new','photoblocks' ) . " - PhotoBlocks",
+            __( 'Add new','photoblocks' ),
             'edit_posts',
             $this->plugin_name . '-edit',
             array( $this, 'edit' )
         );
         $this->troubleshooting_page = add_submenu_page(
             $this->plugin_name,
-            __( 'Troubleshooting' ) . " - PhotoBlocks",
-            __( 'Troubleshooting' ),
+            __( 'Troubleshooting','photoblocks' ) . " - PhotoBlocks",
+            __( 'Troubleshooting','photoblocks' ),
             'edit_posts',
             $this->plugin_name . '-troubleshooting',
             array( $this, 'troubleshooting' )
