@@ -12,6 +12,6 @@
   <tbody id="mobile-layout-<?php echo $field["code"] ?>"></tbody>
 </table>
 <input type="hidden" value="" name="<?php echo $field["code"] ?>" class="js-serialize js-serialize-mobile-layout"></span>
-<a class="pb-button" onclick="PBAdmin.addMobileLayout(this)" data-field="<?php echo $field["code"] ?>"><?php _e("Add layout", 'photobocks') ?></a>
+<a class="pb-button" onclick="PBAdmin.addMobileLayout(this)" data-field="<?php echo $field["code"] ?>"><?php _e("Add layout", 'photoblocks') ?></a>
 
 <div class="pb-settings-description"><p><?php _e($field["description"], 'photoblocks') ?></p></div>

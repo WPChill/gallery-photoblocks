@@ -10,4 +10,4 @@
         <input type="hidden" class="js-serialize js-serialize-checkboxes" name="<?php echo $field["code"] ?>" value="">
     </span>
 </div>
-<div class="pb-settings-description"><p><?php _e($field["description"], 'photobocks') ?></p></div>
+<div class="pb-settings-description"><p><?php _e($field["description"], 'photoblocks') ?></p></div>
