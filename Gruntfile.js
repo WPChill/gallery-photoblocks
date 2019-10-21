@@ -96,7 +96,6 @@ module.exports = function( grunt ) {
 				src: [
 					'**',
 					'!node_modules/**',
-					'!vendor/**',
 					'!build/**',
 					'!readme.md',
 					'!README.md',
@@ -149,9 +148,9 @@ module.exports = function( grunt ) {
 	// Build task
 	grunt.registerTask( 'build-archive', [
 		'clean:init',
-		'clean:css',
-		'clean:jsmin',
-		'minjs',
+		// 'clean:css',
+		// 'clean:jsmin',
+		// 'minjs',
 		'copy',
 		'compress:build',
 		'clean:init'

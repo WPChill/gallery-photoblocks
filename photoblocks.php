@@ -2,7 +2,7 @@
 /**
 * Plugin Name:              Gallery PhotoBlocks
 * Description:              Build your unique photo gallery
-* Version:                  1.1.47
+* Version:                  1.1.48
 * Author:                   MachoThemes
 * Author URI:               https://www.machothemes.com
 * Requires:                 4.9 or higher
@@ -30,7 +30,7 @@ if ( !function_exists( "photoblocks_starter" ) ) {
     function photoblocks_starter()
     {
         if ( !defined( 'PHOTOBLOCKS_V' ) ) {
-            define( 'PHOTOBLOCKS_V', "1.1.47" );
+            define( 'PHOTOBLOCKS_V', "1.1.48" );
         }
         // If this file is called directly, abort.
         if ( !defined( 'WPINC' ) ) {
