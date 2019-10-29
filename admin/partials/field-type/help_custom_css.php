@@ -24,7 +24,7 @@
             <td class="pb-help">Gallery</td>
         </tr>
         <tr>
-            <td class="pb-class">.photoblocks-gallery .pb-blocks/td>
+            <td class="pb-class">.photoblocks-gallery .pb-blocks</td>
             <td class="pb-help">Blocks container</td>
         </tr>
         <tr>
