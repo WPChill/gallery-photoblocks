@@ -4,7 +4,7 @@
 	"version": "1.0.0",
 	"author": "Macho Themes",
 	"license": "GPL v3",
-	"repository": "https://github.com/MachoThemes/modula-slideshow",
+	"repository": "https://github.com/MachoThemes/gallery-photoblocks",
 	"devDependencies": {
 		"grunt": "^1.0.3",
 		"grunt-checktextdomain": "^1.0.0",

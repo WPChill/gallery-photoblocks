@@ -32,7 +32,9 @@
 						<span class="trash"><a href="?page=<?php echo $this->plugin_name ?>&amp;action=delete&amp;id=<?php echo $g->id ?>" data-id="<?php echo $g->id ?>" class="submitdelete" aria-label="Delete">Delete</a></span>
 					</div>
 				</td>
-                <td><input type="text" readonly value="[photoblocks id=<?php echo $g->id ?>]"></td>
+                <td><input type="text" readonly value="[photoblocks id=<?php echo $g->id ?>]">
+                    <a href="#" title="Click to copy shortcode" class="copy-photoblocks-shortcode button button-primary dashicons dashicons-format-gallery" style="width:40px;"></a><span style="margin-left:15px;"></span>
+                </td>
             </tr>
             <?php endforeach ?>
 			</tbody>
