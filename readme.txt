@@ -3,7 +3,7 @@ Contributors: machothemes, silkalns
 Tags: gallery, grid gallery, best gallery plugin, free gallery, gallery plugin, gallery grid plugin, masonry, photo gallery, image gallery, social gallery, portfolio gallery, lightbox, justified gallery
 Requires at least: 4.9
 Tested up to: 5.2
-Stable tag: 1.1.48
+Stable tag: 1.1.49
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -121,6 +121,10 @@ Check the console of the browser and look if you see errors, if case please open
 Currently galleries made with Envira, FooGallery, Instagram, NextGen, JetPack, Modula, etc cannot be imported.
 
 == Changelog ==
+
+= 1.1.49 =
+* [Enhancement] Added copy shortcode functionality
+* [Fix] Table HTML markup fix
 
 = 1.1.33 =
 * [Fix] Security fix
