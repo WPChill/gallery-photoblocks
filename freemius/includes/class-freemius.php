@@ -2290,7 +2290,7 @@
             /**
              * @since 2.3.0 Developers can optionally hide the deactivation feedback form using the 'show_deactivation_feedback_form' filter.
              */
-            $show_deactivation_feedback_form = true;
+            $show_deactivation_feedback_form = false;
             if ( $this->has_filter( 'show_deactivation_feedback_form' ) ) {
                 $show_deactivation_feedback_form = $this->apply_filters( 'show_deactivation_feedback_form', true );
             } else if ( $this->is_addon() ) {
